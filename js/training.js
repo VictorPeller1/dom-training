@@ -1,5 +1,14 @@
 /* ------------------------------------ */
 /* --- Exercice 1 --- */
+/* <button type="button" class="button">Click me</button> */
+let btn1 = document.querySelector("#ex1 .button");
+console.log(btn1);
+function hideP(event) {
+    let p = document.querySelector("#ex1 .text");
+    p.classList.toggle(p);
+}
+btn1.addEventListener('click', hideP);
+
 
 
 /* ------------------------------------ */
